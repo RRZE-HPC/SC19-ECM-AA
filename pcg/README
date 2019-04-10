@@ -1,0 +1,8 @@
+1) Compile program by calling
+        PREFIX=<where src and include folder is> VECWIDTH=<vector width, else default> ARCH=<if arch specific flag needed> CXX=<compiler> LIKWID=<1 or 0, to do perf. counter measurements> make
+
+2) Run tests by running
+        ./test
+
+3) Run performance tests by running, for e.g.
+        OMP_SCHEDULE=static OMP_NUM_THREADS=$threads likwid-pin -c 0-$((threads-1)) ./perf <grid size y> <grid size x>
