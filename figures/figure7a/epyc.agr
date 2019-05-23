@@ -54,7 +54,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Wed Apr 10 21:13:39 2019"
+@timestamp def "Wed Apr 10 20:49:35 2019"
 @with line
 @    line on
 @    line loctype world
@@ -137,7 +137,7 @@
 @g0 fixedpoint format general general
 @g0 fixedpoint prec 6, 6
 @with g0
-@    world 0.1, 0, 24.9, 750
+@    world 0.1, 0, 24.9, 4000
 @    stack world 0, 0, 0, 0
 @    znorm 1
 @    view 0.150000, 0.150000, 0.465000, 0.400000
@@ -219,7 +219,7 @@
 @    yaxis  label color 1
 @    yaxis  label place normal
 @    yaxis  tick on
-@    yaxis  tick major 250
+@    yaxis  tick major 1000
 @    yaxis  tick minor ticks 1
 @    yaxis  tick default 6
 @    yaxis  tick place rounded true
@@ -380,25 +380,21 @@
 @    s1 legend  "Prediction"
 @target G0.S0
 @type xy
-1 55.786
-2 96.806
-3 119.348
-4 139.853
-5 154.036
-6 164.371
-12 266.764
-18 309.775
-24 344.391
+       1,      254.280
+       2,      504.475
+       3,      751.173
+       6,     1286.842
+      12,     1024.809
+      18,      934.229
+      24,      895.911
 &
 @target G0.S1
 @type xy
-1 56.427
-2 97.3217
-3 120.657
-4 144.653
-5 157.814
-6 163.451
-12 276.228
-18 341.054
-24 383.893
+1, 255.509
+2, 508.486
+3, 759.687
+6, 1324.35
+12, 1000
+18, 1000
+24, 1000
 &
